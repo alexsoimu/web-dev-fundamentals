@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<style>
+    .parent {
+        border: 1px solid #0000d0;
+        position: relative;
+        height: 180px;
+        width: 280px;
+    }
+
+    #dv1 {
+        background: #bdbdfb;
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        height: 100px;
+        width: 150px;
+        z-index: 9999;
+    }
+
+    #dv2 {
+        background: #ebeb00;
+        height: 100px;
+        width: 150px;
+    }
+</style>
+</head>
+
+<body>
+    <div class='parent'>
+        <div id='dv1'>Div-ul #dv1</div>
+        <div id='dv2'>Div-ul #dv2</div>
+    </div>
+</body>
+
+</html>
