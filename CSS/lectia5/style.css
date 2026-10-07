@@ -1,0 +1,14 @@
+#paragraf-1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#paragraf-2 {
+    font-weight: 600;
+    font-style: italic;
+}
+
+#paragraf-3 {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}

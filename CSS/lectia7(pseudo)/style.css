@@ -1,0 +1,42 @@
+form {
+    background-color: bisque;
+    width: 250px;
+    padding: 15px;
+}
+
+input {
+    display: block;
+    margin-top: 16px;
+}
+
+input:required {
+    border: 2px dotted grey;
+}
+
+input[type="email"]:invalid {
+    border: 2px solid red;
+}
+
+input[type="email"]:valid {
+    border: 2px solid green;
+}
+
+input:last-child {
+    background-color: aquamarine;
+}
+
+input:first-child {
+    background-color: blueviolet;
+}
+
+li:nth-child(2) {
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    background-color: coral;
+}
+
+li:nth-child(even) {
+    background-color: aqua;
+}

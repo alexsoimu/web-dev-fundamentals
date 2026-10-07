@@ -1,0 +1,22 @@
+.lists-parent{
+    background-color: bisque;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-parent {
+    background-color: darksalmon;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 150px;
+}

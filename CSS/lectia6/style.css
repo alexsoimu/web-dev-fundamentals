@@ -1,0 +1,14 @@
+div {
+    background-color: blanchedalmond;
+    height: 400px;
+    width: 400px;
+    overflow: scroll;
+    margin-top: 150px;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 40px 30px 10px 15px rgb(128, 128, 177);
+}
